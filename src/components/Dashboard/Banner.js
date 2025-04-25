@@ -5,6 +5,7 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="discount-text">
+        {/* //helo */}
         <h3>Get Discount Voucher Up To 20%</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
       </div>
