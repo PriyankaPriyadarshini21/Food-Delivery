@@ -1,0 +1,141 @@
+.popular-dishes {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section-header h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.view-all {
+  background: none;
+  border: none;
+  color: #FFAB2D;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dishes-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  padding-bottom: 20px;
+}
+
+.dish-card {
+  height: 300px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.dish-image {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.discount-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #FF5A5A;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 1;
+}
+
+
+.dish-rating {
+  color: #FFAB2D;
+  font-size: 14px;
+  margin: 12px 20px 5px;
+}
+
+.dish-name {
+  font-weight: 600;
+  color: #333;
+  margin: 5px 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  max-height: 48px;
+}
+
+.dish-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding: 15px 20px 20px;
+}
+
+.dish-price {
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+}
+
+.currency {
+  font-weight: normal;
+}
+
+.add-btn {
+  background-color: #FFAB2D;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+.dish-link{
+  text-decoration: none !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .dishes-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .dishes-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .dishes-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .dish-card {
+    height: auto;
+    min-height: 280px;
+  }
+}

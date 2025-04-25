@@ -1,0 +1,26 @@
+/* * {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f9f9f9;
+  /* overflow-x: auto; */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  font-family: sans-serif;
+}
+
+

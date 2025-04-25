@@ -1,0 +1,50 @@
+.banner {
+  background: #f8b602;
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  position: relative;
+  height: calc(100vh - 540px);
+  max-height: 200px;
+}
+
+.discount-text h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: white;
+}
+.discount-text p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+.banner-image {
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  z-index: 1000;
+}
+
+.ellipse-one {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+}
+
+.ellipse-two {
+  position: absolute;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+}
+
+.ellipse-three {
+  position: absolute;
+  height: 100px;
+  top: 0;
+  right: 10%;
+}

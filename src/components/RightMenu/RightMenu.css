@@ -1,0 +1,156 @@
+.right-menu {
+  width: 300px;
+  min-width: 300px;
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-left: 1px solid #eee;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.icon-group {
+  display: flex;
+  gap: 16px;
+}
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 12px;
+  transition: background 0.3s ease;
+}
+
+.icon-btn img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.user {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.user img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.cart-footer {
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2E2E2E;
+}
+
+.cart-total-price {
+  color: #F8B602;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #f8b602;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.icon-group.no-bg,
+.icon-btn.no-bg {
+  background: none !important;
+  box-shadow: none !important;
+}
+.order-summary {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.order-item-details {
+  display: flex;
+  align-items: center;
+}
+
+.order-item-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  margin-right: 12px;
+}
+
+.order-item-name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #2E2E2E;
+}
+
+.order-item-qty {
+  font-size: 14px;
+  color: #A098AE;
+}
+
+.order-item-price {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.order-service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.order-service-label {
+  font-size: 14px;
+  color: #A098AE;
+}
+
+.order-service-fee {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F8B602;
+}
